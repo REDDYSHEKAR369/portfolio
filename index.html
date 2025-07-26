@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" class="transition-colors duration-300">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buddala Reddy Shekar Reddy | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100 font-sans">
+
+  <!-- Dark Mode Toggle Button -->
+  <button id="darkToggle" class="fixed top-4 right-4 p-2 bg-gray-300 dark:bg-gray-700 rounded-full hover:bg-gray-400 dark:hover:bg-gray-600 transition">
+    🌙
+  </button>
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center bg-white dark:bg-gray-800 px-4">
+    <h1 class="text-5xl font-bold mb-4 animate__animated animate__fadeInDown">Buddala Reddy Shekar Reddy</h1>
+    <p class="text-xl text-gray-600 dark:text-gray-300 mb-6 animate__animated animate__fadeInUp">Computer Science Engineering Student</p>
+    <a href="#projects" class="px-6 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition animate__animated animate__fadeInUp">View My Work</a>
+    <a href="resume.pdf" download class="mt-4 inline-block bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition animate__animated animate__fadeInUp">
+      Download Resume
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 px-6 bg-gray-100 dark:bg-gray-900">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6">About Me</h2>
+      <p class="text-lg text-gray-700 dark:text-gray-300">
+        Enthusiastic and self-motivated engineering graduate with strong technical skills in programming, software development, and system design.
+        Eager to apply academic learning to real-world challenges and contribute to the success of a forward-thinking company.
+        Committed to continuous improvement, teamwork, and learning emerging technologies.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 px-6 bg-white dark:bg-gray-800">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6">Skills</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 text-lg text-gray-700 dark:text-gray-300">
+        <div>
+          <h3 class="font-semibold mb-2">Programming</h3>
+          <p>C, Java, Python</p>
+        </div>
+        <div>
+          <h3 class="font-semibold mb-2">Web Development</h3>
+          <p>HTML, CSS, basics of JavaScript</p>
+        </div>
+        <div>
+          <h3 class="font-semibold mb-2">Tools</h3>
+          <p>Git, VS Code, MySQL</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 px-6 bg-gray-100 dark:bg-gray-900">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6">Projects</h2>
+
+      <!-- Project: Credit Card Fraud Detection -->
+      <div class="bg-white dark:bg-gray-800 rounded-xl shadow p-6 text-left">
+        <h3 class="text-2xl font-semibold">Credit Card Fraud Detection</h3>
+        <p class="mt-2 text-gray-700 dark:text-gray-300">
+          A machine learning-based model to detect fraudulent credit card transactions using data analysis and classification algorithms.
+        </p>
+        <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">Tech Stack: Python, Pandas, Scikit-learn</p>
+        <a href="https://github.com/REDDYSHEKAR369/Credit-card-fraud-detection" class="inline-block mt-4 text-blue-600 dark:text-blue-400 hover:underline" target="_blank">
+          View on GitHub →
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-6 bg-white dark:bg-gray-800">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6">Contact Me</h2>
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">Feel free to reach out via email:</p>
+      <p class="text-blue-600 dark:text-blue-400 font-medium text-xl">reddybuddala711@gmail.com</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-gray-500 dark:text-gray-400 text-sm">
+    © 2025 Buddala Reddy Shekar Reddy. All rights reserved.
+  </footer>
+
+  <!-- Dark Mode Toggle Script -->
+  <script>
+    const toggle = document.getElementById("darkToggle");
+    const html = document.documentElement;
+    toggle.addEventListener("click", () => {
+      html.classList.toggle("dark");
+    });
+  </script>
+
+</body>
+</html>
